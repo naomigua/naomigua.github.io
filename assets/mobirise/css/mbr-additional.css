@@ -21,19 +21,19 @@ body {
 }
 .display-1 {
   font-family: 'Dela Gothic One', display;
-  font-size: 5rem;
-  line-height: 1;
-}
-.display-1 > .mbr-iconfont {
-  font-size: 6.25rem;
-}
-.display-2 {
-  font-family: 'Dela Gothic One', display;
   font-size: 4rem;
   line-height: 1;
 }
-.display-2 > .mbr-iconfont {
+.display-1 > .mbr-iconfont {
   font-size: 5rem;
+}
+.display-2 {
+  font-family: 'Dela Gothic One', display;
+  font-size: 3rem;
+  line-height: 1;
+}
+.display-2 > .mbr-iconfont {
+  font-size: 3.75rem;
 }
 .display-4 {
   font-family: 'Golos Text', sans-serif;
@@ -45,19 +45,19 @@ body {
 }
 .display-5 {
   font-family: 'Dela Gothic One', display;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 3.125rem;
+  font-size: 2.5rem;
 }
 .display-7 {
   font-family: 'Golos Text', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 1.3;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -66,19 +66,19 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 4rem;
+    font-size: 3.2rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.5rem;
-    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.8rem;
+    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.4rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.96rem;
@@ -86,14 +86,14 @@ body {
     line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 2rem;
-    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -619,13 +619,13 @@ a:hover {
 }
 .form-control {
   font-family: 'Golos Text', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 1.3;
   font-weight: 400;
   border-radius: 100px !important;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -634,12 +634,12 @@ a:hover {
 }
 .form-control:-webkit-input-placeholder {
   font-family: 'Golos Text', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 1.3;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 blockquote {
   border-color: #f92c50;
@@ -773,52 +773,6 @@ a {
 .cid-tLY8RsLJtt .mbr-section-btn {
   text-align: center;
   color: #f92c50;
-}
-.cid-tLYb0YwDmj {
-  display: flex;
-  background-image: url("../../../assets/images/gallery3.jpg");
-}
-.cid-tLYb0YwDmj .mbr-overlay {
-  background-color: #ffd7ef;
-  opacity: 0.3;
-}
-.cid-tLYb0YwDmj .content-wrap {
-  padding: 5rem 1rem;
-}
-@media (min-width: 768px) {
-  .cid-tLYb0YwDmj {
-    align-items: center;
-  }
-  .cid-tLYb0YwDmj .row {
-    justify-content: center;
-  }
-}
-@media (max-width: 991px) and (min-width: 768px) {
-  .cid-tLYb0YwDmj .content-wrap {
-    min-width: 50%;
-  }
-}
-@media (max-width: 767px) {
-  .cid-tLYb0YwDmj {
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  .cid-tLYb0YwDmj .mbr-row {
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-  .cid-tLYb0YwDmj .content-wrap {
-    width: 100%;
-  }
-}
-.cid-tLYb0YwDmj .mbr-section-title {
-  text-align: center;
-  color: #ff002d;
-}
-.cid-tLYb0YwDmj .mbr-text,
-.cid-tLYb0YwDmj .mbr-section-btn {
-  text-align: left;
-  color: #ff002d;
 }
 .cid-tHeG7yune1 {
   z-index: 1000;
@@ -1452,7 +1406,7 @@ a {
 .cid-tIskrx6sZd {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #008063;
+  background-color: #ffd7ef;
 }
 .cid-tIskrx6sZd .mbr-overlay {
   background-color: #ffffff;
@@ -1471,11 +1425,14 @@ a {
   }
 }
 .cid-tIskrx6sZd .mbr-section-title {
-  color: #ff8cbc;
+  color: #ff002d;
 }
 .cid-tLY65p9thY {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #2e481a;
+  background-color: #ff002d;
   overflow: hidden;
+}
+.cid-tLY65p9thY .media-container-row .mbr-text {
+  color: #ffd7ef;
 }
