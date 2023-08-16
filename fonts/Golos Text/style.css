@@ -1,0 +1,42 @@
+@font-face {
+   font-family: 'Golos Text';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///C:/Users/Naomi/Documents/naomigua.github.io/fonts/Golos Text/500.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Golos Text';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///C:/Users/Naomi/Documents/naomigua.github.io/fonts/Golos Text/600.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Golos Text';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///C:/Users/Naomi/Documents/naomigua.github.io/fonts/Golos Text/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Golos Text';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 800;
+   src: url('file:///C:/Users/Naomi/Documents/naomigua.github.io/fonts/Golos Text/800.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Golos Text';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 900;
+   src: url('file:///C:/Users/Naomi/Documents/naomigua.github.io/fonts/Golos Text/900.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Golos Text';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///C:/Users/Naomi/Documents/naomigua.github.io/fonts/Golos Text/regular.ttf') format('truetype');
+}
